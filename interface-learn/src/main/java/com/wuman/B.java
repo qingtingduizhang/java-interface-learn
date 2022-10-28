@@ -6,6 +6,7 @@ package com.wuman;
  * @date 2022/10/28 14:01
  */
 public interface B {
+     int a=10;
     void a();
     void b();
 }

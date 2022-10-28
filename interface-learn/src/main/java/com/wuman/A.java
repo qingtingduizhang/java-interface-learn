@@ -6,10 +6,12 @@ package com.wuman;
  * @version 1.0
  * @date 2022/10/28 14:01
  */
-public abstract class A implements B {
+public  class A implements B {
+
+
     @Override
     public void a() {
-
+        System.out.println("a = " + a);
     }
 
     @Override
@@ -17,5 +19,8 @@ public abstract class A implements B {
 
     }
 
-
+    public static void main(String[] args) {
+        A a = new A();
+        a.a();
+    }
 }
