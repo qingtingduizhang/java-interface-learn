@@ -9,18 +9,31 @@ package com.wuman;
 public  class A implements B {
 
 
+
+    public static void main(String[] args) {
+        A a = new A();
+        a.a();
+    }
+
     @Override
     public void a() {
-        System.out.println("a = " + a);
+
     }
+
+
 
     @Override
     public void b() {
 
     }
 
-    public static void main(String[] args) {
-        A a = new A();
-        a.a();
+    @Override
+    public void c() {
+
+    }
+
+    @Override
+    public void d() {
+
     }
 }

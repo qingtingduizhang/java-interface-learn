@@ -5,8 +5,9 @@ package com.wuman;
  * @version 1.0
  * @date 2022/10/28 14:01
  */
-public interface B {
+public interface B extends C,D {
      int a=10;
     void a();
     void b();
+
 }
